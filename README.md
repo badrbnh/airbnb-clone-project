@@ -83,3 +83,28 @@ POST /reviews/ - Create a new review
 GET /reviews/{review_id}/ - Retrieve a specific review
 PUT /reviews/{review_id}/ - Update a specific review
 DELETE /reviews/{review_id}/ - Delete a specific review
+
+## Database Design
+### Users:
+- first_name
+- last_name
+- age, email
+- phone_number
+- address
+### Properties
+- title
+- location
+- orientaion area
+### Bookings
+- user_id
+- property_id
+- entering_date
+- leaving_date
+### Reviews
+- user_id
+- property_id
+- comment
+- rating
+### Payments
+- user_id
+- amount
