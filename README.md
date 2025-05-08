@@ -10,7 +10,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 ### Payment Processing: Integrate a payment system to handle transactions and record payment details.
 ### Review System: Allow users to leave reviews and ratings for properties.
 ### Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
-## 🛠️ Features Overview
+## Feature Breakdown
 ### 1. API Documentation
 OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
 Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
@@ -52,6 +52,8 @@ REST API: Detailed documentation available through the OpenAPI standard, includi
 GraphQL API: Provides a flexible query language for retrieving and manipulating data.
 ## 📌 Endpoints Overview
 REST API Endpoints
+
+### API Security
 Users
 
 GET /users/ - List all users
@@ -108,3 +110,5 @@ DELETE /reviews/{review_id}/ - Delete a specific review
 ### Payments
 - user_id
 - amount
+## CI/CD Pipeline
+CI/CD, which stands for continuous integration and continuous delivery/deployment, aims to streamline and accelerate the software development lifecycle.
